@@ -8,7 +8,7 @@ pkgrel=11
 pkgdesc="The GNOME Virtual File System (32 bit)"
 arch=('x86_64')
 license=('LGPL')
-depends=('gnome-vfs' 'lib32-gconf' 'lib32-bzip2' 'lib32-avahi' 'lib32-smbclient' 'lib32-krb5' 'lib32-gnutls' 'lib32-libgcrypt')
+depends=('gnome-vfs' 'lib32-gconf' 'lib32-bzip2' 'lib32-avahi' 'lib32-smbclient<=3.6.25' 'lib32-krb5' 'lib32-gnutls' 'lib32-libgcrypt')
 makedepends=('gnome-mime-data' 'pkgconfig' 'intltool' 'gtk-doc' 'gnome-common' 'lib32-dbus-glib' 'lib32-keyutils')
 options=('!libtool' '!emptydirs' '!docs')
 url="http://www.gnome.org"
