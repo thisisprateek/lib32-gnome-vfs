@@ -55,7 +55,7 @@ build() {
       --disable-hal --enable-avahi --disable-howl \
       --disable-openssl --enable-gnutls \
 	  --libdir=/usr/lib32
-  make
+  make -j 4
 }
 
 package() {
